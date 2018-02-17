@@ -1,0 +1,27 @@
+{
+  "name": "klink",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp compile && gulp test"
+  },
+  "author": "Matthew Allpress",
+  "private": true,
+  "dependencies": {
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jasmine": "^3.0.0",
+    "gulp-tsc": "^1.3.2",
+    "gulp-typedoc": "^2.2.0",
+    "gulp-typescript": "^4.0.1",
+    "jasmine": "^3.0.0",
+    "typescript": "^2.8.0-dev.20180216"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.6",
+    "@types/node": "^9.4.6",
+    "typedoc": "^0.10.0"
+  }
+}
