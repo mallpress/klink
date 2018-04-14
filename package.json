@@ -2,12 +2,12 @@
   "name": "klink",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/klink.ts",
   "scripts": {
     "test": "gulp compile && gulp test"
   },
   "author": "Matthew Allpress",
-  "private": true,
+  "private": false,
   "dependencies": {
     "event-stream": "^3.3.4",
     "gulp": "^3.9.1",
@@ -23,5 +23,7 @@
     "@types/jasmine": "^2.8.6",
     "@types/node": "^9.4.6",
     "typedoc": "^0.10.0"
-  }
+  },
+  "repository": "git@github.com:mallpress/klink.git",
+  "license": "MIT"
 }

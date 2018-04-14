@@ -39,7 +39,7 @@ let values = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 let results = Klink.fromArray(values)
             .where(v => v > 2 && v <= 8)
             .forEach(v => v + 10)
-            .groupBy(v => v % 2)
+            .groupBy(v => v % 2);
 ```
 # Build 
 ```sh

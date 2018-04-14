@@ -32,6 +32,11 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
+
+      - run:
+          command: |
+            echo 'export PATH=~/repo/node_modules/.bin/:$PATH' >> $BASH_ENV
+            source $BASH_ENV      
         
       # run tests!
       - run: gulp test
