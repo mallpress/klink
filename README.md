@@ -1,3 +1,5 @@
+![Build](https://circleci.com/gh/mallpress/klink.svg?style=shield)
+
 # klink
 Linq like lib in Typescript that supports javascript iterators 
 
