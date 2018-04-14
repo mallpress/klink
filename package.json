@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/klink.ts",
   "scripts": {
+    "build": "gulp compile",
     "test": "gulp compile && gulp test"
   },
   "author": "Matthew Allpress",

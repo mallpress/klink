@@ -45,10 +45,10 @@ let results = Klink.fromArray(values)
 ```
 # Build 
 ```sh
-$ npm build
+$ yarn build
 ```
 
 # Tests
 ```sh
-$ npm test
+$ yarn test
 ```
