@@ -11,7 +11,6 @@ var tsProject2 = ts.createProject('tsconfig.json');
 
 
 gulp.task('compile', function(){
-
   return es.merge(
     gulp.src(['src/**/*.ts', '!src/**/*.spec.ts'])
     .pipe(tsProject1())

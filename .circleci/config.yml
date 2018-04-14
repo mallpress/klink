@@ -39,6 +39,7 @@ jobs:
             source $BASH_ENV      
         
       # run tests!
+      - run: gulp compile
       - run: gulp test
 
 
